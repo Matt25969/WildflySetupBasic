@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd /var/lib
-rm -R wildfly-10.1.0.Final
-rm -R wildfly-10.1.0.Final.zip
+sudo rm -R wildfly-10.1.0.Final
+sudo rm -R wildfly-10.1.0.Final.zip
 wget "https://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip"
 unzip wildfly-10.1.0.Final.zip
 rm wildfly-10.1.0.Final/standalone/configuration/standalone.xml
